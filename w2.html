@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        display:flex;
+        justify-content: space-around;
+    }
+    div{
+        color: black;
+    }
+    body{
+        background-color: rgb(228, 220, 208);
+    }
+    .linkbutton{
+        color: red;
+    }
+    .center{
+        text-align: center;
+    }
+    .large{
+        background-color: #112D4E;
+        margin-top: 0px;
+        padding:4px;
+        height: 190px;
+        border-bottom-right-radius:  40px;
+        border-bottom-left-radius: 40px;
+        margin-bottom: 10px;
+    }
+    body{
+        margin-top:0px ;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right:0px ;
+    }
+    .kiet{
+        margin-top: 0px ;
+        margin-bottom: 0px ;
+        text-align: center;
+        font-size: 45px;
+        color: #DDE6ED;
+    }
+    .logo{
+        width: 100px;
+        position: relative;
+        left:90%;
+        top:5px;
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+    .linkbutton{
+        font-size: 28px;
+        background-color: #DBE2EF;
+        border-radius: 10px;
+        padding:2px;
+    }
+    a:link{
+        color:#3F72AF;text-decoration: none;
+    }
+    a:visited{
+        color:black;text-decoration: none;
+    }
+    .main>a:hover{
+        color:#3F72AF;text-decoration: none;
+        background-color: rgb(228, 220, 208);
+    }
+    a:active{
+        color:white;text-decoration: none;
+    }
+    @media(max-width:800px){
+        .logo{
+            width:0px;
+        }
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: 320px 320px 320px 320px;
+        grid-template-rows: 480px 480px 480px 480px;
+        gap:20px;
+    }
+    .w1{
+        background-color: #DBE2EF;
+        border-radius: 40px;
+        padding:10px;
+        text-align: center;
+    }
+    .w2{
+        background-color: #DBE2EF;
+        border-radius: 40px;
+        padding:10px;
+        text-align: center;
+    }
+    .w3{
+        background-color: #DBE2EF;
+        border-radius: 40px;
+        padding:10px;
+        text-align: center;
+    }
+    .w4{
+        background-color: #DBE2EF;
+        border-radius: 40px;
+        padding:10px;
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+</style>
+<body>
+    <div class="large">
+        <h1 class="kiet">
+            KIET GROUP OF INSTITUITIONS
+        </h1>
+        <a href="https://www.google.com/search?q=college&rlz=1C1CHBF_enIN1079IN1079&oq=college&gs_lcrp=EgZjaHJvbWUyDwgAEEUYORixAxjJAxiABDIGCAEQRRg7MgYIAhBFGDsyCggDEAAYsQMYgAQyEwgEEC4YgwEYxwEYsQMY0QMYgAQyBwgFEAAYgAQyBggGEEUYPTIGCAcQRRg80gEINTM3OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">
+            <img class="logo" src="./kiet_logo.jpeg" href="www.google.com"></a>
+            
+        <div class="main">
+            <a class="linkbutton" href="./w.html">Home</a>
+            <a class="linkbutton" href="./w2.html">Courses</a>
+            <a class="linkbutton" href="./w1.html">Journey</a>
+            <a class="linkbutton" href="./w4.html">About</a>
+        </div>
+        <!-- <img class="imag" src="./kiet1.png"/> -->
+    
+    </div>
+    <div class="flex">
+        <div class="grid-container">
+            <div class="w1"><h1> Bachelor of Technology</h1><h4>Empowering Innovators of Tomorrow</h4><p>Dive into the world of engineering and technology with our Bachelor of Technology program. From cutting-edge research to hands-on projects, we prepare you for a dynamic career in the ever-evolving field of technology.</p></div>
+            <div class="w2"><h1> Bachelor of Pharmacy</h1><h4>Shaping the Future of Healthcare</h4><p>Join the ranks of healthcare professionals with our Bachelor of Pharmacy program. Gain the knowledge and skills needed to contribute to the development and delivery of life-saving medications and pharmaceutical care.</p></div>
+            <div class="w3"><h1>Bachelor of Computer Application</h1><h4>Unleash Your Coding Potential</h4><p> Explore the world of software development and computer science with our Bachelor of Computer Application program. Whether you're passionate about coding, web development, or data analytics, we provide the tools for your digital journey.</p></div>
+            <div class="w4"><h1>Master of Computer Application</h1><h4>Elevate Your Career in Tech</h4><p>Take your expertise in computer science to the next level with our Master of Computer Application program. Designed for aspiring leaders and innovators, our advanced curriculum equips you with the skills to drive technological advancement in various industries.</p></div>
+        </div>
+    </div>
+    
+
+</body>
+</html>

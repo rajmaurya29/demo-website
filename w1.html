@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        display:flex;
+        justify-content: space-around;
+    }
+    div{
+        color: black;
+    }
+    body{
+        background-color: rgb(228, 220, 208);
+    }
+    .linkbutton{
+        color: red;
+    }
+    .center{
+        text-align: center;
+    }
+    .large{
+        background-color: #112D4E;
+        margin-top: 0px;
+        padding:4px;
+        height: 190px;
+        border-bottom-right-radius:  40px;
+        border-bottom-left-radius: 40px;
+        margin-bottom: 10px;
+    }
+    body{
+        margin-top:0px ;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right:0px ;
+    }
+    .kiet{
+        margin-top: 0px ;
+        margin-bottom: 0px ;
+        text-align: center;
+        font-size: 45px;
+        color: #DDE6ED;
+    }
+    .logo{
+        width: 100px;
+        position: relative;
+        left:90%;
+        top:5px;
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+    .linkbutton{
+        font-size: 28px;
+        background-color: #DBE2EF;
+        border-radius: 10px;
+        padding:2px;
+    }
+    a:link{
+        color:#3F72AF;text-decoration: none;
+    }
+    a:visited{
+        color:black;text-decoration: none;
+    }
+    .main>a:hover{
+        color:#3F72AF;text-decoration: none;
+        background-color: rgb(228, 220, 208);
+    }
+    a:active{
+        color:white;text-decoration: none;
+    }
+    @media(max-width:800px){
+        .logo{
+            width:0px;
+        }
+    }
+    .w1,.w6,.w2,.w8{
+        background-color: #DBE2EF;
+        border-radius: 30px;
+        padding:6px;
+    }
+    .w,.w7{
+        background-color:  rgb(228, 220, 208);
+        display: flex;
+        align-items: center;
+    }
+    /* .w3{  transform: rotate(45deg);
+    } */
+    .width{
+        width:150px;
+    }
+    .width2{
+        width: 150px;
+        transform: rotate(180deg);
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: 250px 150px 250px;
+        grid-template-rows: 250px 150px 250px;
+    }
+    .fl{
+        display: flex;
+        justify-content: center;
+    }
+    .w6{
+        grid-area:3/1/4/2;
+    }
+    .w8{
+        grid-area:3/3/4/4;
+    }
+    .height{
+        width: 150px;
+        height: 100px;
+        transform: rotate(90deg);
+    }
+    .w5{
+        display: flex;
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+    h2{
+        text-align: center;
+    }
+    .smal{
+        width:98px;
+        margin-left: 60px;
+    }
+    .smal1{
+        width:110px;
+        margin-left: 60px;
+    }
+    .smal2{
+        width:120px;
+        margin-left: 60px;
+    }
+    .smal4{
+        width:110px;
+        margin-left: 60px;
+    }
+</style>
+<body>
+    <div class="large">
+        <h1 class="kiet">
+            KIET GROUP OF INSTITUITIONS
+        </h1>
+        <a href="https://www.google.com/search?q=college&rlz=1C1CHBF_enIN1079IN1079&oq=college&gs_lcrp=EgZjaHJvbWUyDwgAEEUYORixAxjJAxiABDIGCAEQRRg7MgYIAhBFGDsyCggDEAAYsQMYgAQyEwgEEC4YgwEYxwEYsQMY0QMYgAQyBwgFEAAYgAQyBggGEEUYPTIGCAcQRRg80gEINTM3OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">
+            <img class="logo" src="./kiet_logo.jpeg" href="www.google.com"></a>
+            
+        <div class="main">
+            <a class="linkbutton" href="./w.html">Home</a>
+            <a class="linkbutton" href="./w2.html">Courses</a>
+            <a class="linkbutton" href="./w1.html">Journey</a>
+            <a class="linkbutton" href="./w4.html">About</a>
+        </div>
+        <!-- <img class="imag" src="./kiet1.png"/> -->
+    
+    </div>
+    <div class="fl">
+    <div class="grid-container">
+        <div class="w1"><h2>Infrastructure Development</h2><p>Construction efforts began in 90 AD to create a foundation for growth. </p><img class="smal" src="./construction-workers-building-house-CT69AY.jpg"></div>
+        <div class="w"><img class="width" src="./pngtree.png"></div>
+        <div class="w2"><h2>Establishment </h2><p>Inaugarated in 100AD. Only 10 students enrolled in the inaugural year.</p><img class="smal1" src="./oldc.jpg"></div>
+        <div class="w3"></div>
+        <div class="w4"></div>
+        <div class="w5"><img class="height" src="./pngtree.png"></div>
+        <div class="w6"><h2>Present </h2><p>Emphasize the continuity of educational values and traditions despite changing times.</p><img src="./buildi.jpg" class="smal2"></div>
+        <div class="w7"><img class="width2" src="./pngtree.png"></div>
+        <div class="w8"><h2>Growth</h2><p>From humble beginnings to gradual expansion. Our curriculum expanded. Student expanded to 1000.</p><img class="smal4" src="./insid.webp"></div>
+        
+   </div>
+</div>
+</body>
+</html>

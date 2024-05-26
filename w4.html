@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        display:flex;
+        justify-content: space-around;
+    }
+    div{
+        color: black;
+    }
+    body{
+        background-color: rgb(228, 220, 208);
+    }
+    .linkbutton{
+        color: red;
+    }
+    .center{
+        text-align: center;
+    }
+    .large{
+        background-color: #112D4E;
+        margin-top: 0px;
+        padding:4px;
+        height: 190px;
+        border-bottom-right-radius:  40px;
+        border-bottom-left-radius: 40px;
+        margin-bottom: 10px;
+    }
+    body{
+        margin-top:0px ;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right:0px ;
+    }
+    .kiet{
+        margin-top: 0px ;
+        margin-bottom: 0px ;
+        text-align: center;
+        font-size: 45px;
+        color: #DDE6ED;
+    }
+    .logo{
+        width: 100px;
+        position: relative;
+        left:90%;
+        top:5px;
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+    .linkbutton{
+        font-size: 28px;
+        background-color: #DBE2EF;
+        border-radius: 10px;
+        padding:2px;
+    }
+    a:link{
+        color:#3F72AF;text-decoration: none;
+    }
+    a:visited{
+        color:black;text-decoration: none;
+    }
+    .main>a:hover{
+        color:#3F72AF;text-decoration: none;
+        background-color: rgb(228, 220, 208);
+    }
+    a:active{
+        color:white;text-decoration: none;
+    }
+    @media(max-width:800px){
+        .logo{
+            width:0px;
+        }
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: 100px 100px 100px 100px;
+        gap:10px;
+    }
+    button{
+        width:400px;
+        height: 90px;
+        border-radius: 40px;
+    }
+    button:hover{
+        background-color: #3F72AF;
+    }
+    /* .w1{
+        background-color: #9ba5b1;
+        border-radius:40px ;
+    }
+    .w2{
+        background-color: #112D4E;
+        border-radius:40px ;
+    }
+    .w3{
+        background-color: #112D4E;
+        border-radius:40px ;
+    }
+    .w4{
+        background-color: #112D4E;
+        border-radius:40px ;
+    } */
+    img{
+        width:40px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .w1>a{
+        width:400px;
+        height: 90px;
+        border-radius: 40px;
+    }
+</style>
+<body>
+    <div class="large">
+        <h1 class="kiet">
+            KIET GROUP OF INSTITUITIONS
+        </h1>
+        <a href="https://www.google.com/search?q=college&rlz=1C1CHBF_enIN1079IN1079&oq=college&gs_lcrp=EgZjaHJvbWUyDwgAEEUYORixAxjJAxiABDIGCAEQRRg7MgYIAhBFGDsyCggDEAAYsQMYgAQyEwgEEC4YgwEYxwEYsQMY0QMYgAQyBwgFEAAYgAQyBggGEEUYPTIGCAcQRRg80gEINTM3OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">
+            <img class="logo" src="./kiet_logo.jpeg" href="www.google.com"></a>
+            
+        <div class="main">
+            <a class="linkbutton" href="./w.html">Home</a>
+            <a class="linkbutton" href="./w2.html">Courses</a>
+            <a class="linkbutton" href="./w1.html">Journey</a>
+            <a class="linkbutton" href="./w4.html">About</a>
+        </div>
+        <!-- <img class="imag" src="./kiet1.png"/> -->
+    
+    </div>
+    <div class="flex">
+        <div class="grid-container">
+            
+            <div class="w2"><a href="https://www.google.com/search?q=twitter&sca_esv=643716ddf41b34d8&rlz=1C1CHBF_enIN1079IN1079&ei=NHgjZqyaBMTcseMPmM6oiAw&ved=0ahUKEwishKLHq9CFAxVEbmwGHRgnCsEQ4dUDCBA&uact=5&oq=twitter&gs_lp=Egxnd3Mtd2l6LXNlcnAiB3R3aXR0ZXIyFhAuGIAEGLEDGNEDGEMYgwEYxwEYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyCxAAGIAEGLEDGIMBMhAQABiABBixAxhDGIMBGIoFMg0QABiABBixAxhDGIoFMgoQABiABBhDGIoFMhAQABiABBixAxhDGIMBGIoFMggQABiABBixAzIlEC4YgAQYsQMY0QMYQxiDARjHARiKBRiXBRjcBBjeBBjgBNgBAUj9DFAAWJgMcAB4AZABAJgB5AGgAd8HqgEFMC41LjG4AQPIAQD4AQGYAgagAvYHwgIFEAAYgATCAgoQLhiABBhDGIoFmAMA4gMFEgExIEC6BgYIARABGBSSBwUwLjUuMaAH3TE&sclient=gws-wiz-serp"><button class="button" type="button"><img src="./twiter.svg"><h1>Twitter</h1></button></a></div>
+            <div class="w1"><a href="https://www.google.com/search?q=insta&rlz=1C1CHBF_enIN1079IN1079&oq=insta+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg7MgYIAhBFGDsyBggDEEUYOzIPCAQQABgKGIMBGLEDGIAEMg8IBRAAGAoYgwEYsQMYgAQyDQgGEC4YxwEY0QMYgAQyBwgHEAAYgAQyBwgIEAAYgAQyDAgJEAAYChixAxiABNIBCDIyMzZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
+                <button class="button" type="button"><img src="./transparent-instagram-logo-instagram-logo-on-white-background-simple-design65fe4a0a1881d2.77851034.png"><h1>Instagram</h1></button></a></div>
+            <div class="w3"><a href="https://www.google.com/search?q=whatsapp&sca_esv=643716ddf41b34d8&rlz=1C1CHBF_enIN1079IN1079&ei=Q3gjZpC7E6yOseMPsImX8Ag&oq=what&gs_lp=Egxnd3Mtd2l6LXNlcnAiBHdoYXQqAggAMhAQABiABBixAxhDGIMBGIoFMhAQABiABBixAxhDGIMBGIoFMggQABiABBixAzIFEAAYgAQyCBAAGIAEGLEDMgsQABiABBixAxiDATIIEAAYgAQYsQMyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDATIFEAAYgARIuxRQdFi8C3ABeAGQAQCYAXygAckDqgEDMC40uAEDyAEA-AEBmAIFoALWA6gCCsICFhAAGAMYtAIY5QIY6gIYjAMYjwHYAQHCAhYQLhgDGLQCGOUCGOoCGIwDGI8B2AEBwgIQEC4YgAQYsQMYQxiDARiKBcICBRAuGIAEwgIfEC4YgAQYsQMYQxiDARiKBRiXBRjcBBjeBBjgBNgBApgDA7oGBAgBGAq6BgYIAhABGBSSBwMxLjSgB7MY&sclient=gws-wiz-serp"><button class="button" type="button"><img src="./whatnew.png"><h1>Whatsapp</h1></button></a></div>
+            <div class="w4"><a href="https://www.google.com/search?q=call&sca_esv=643716ddf41b34d8&rlz=1C1CHBF_enIN1079IN1079&ei=UngjZtiMNci8seMP6dmFqAE&ved=0ahUKEwjY_fnVq9CFAxVIXmwGHelsARUQ4dUDCBA&uact=5&oq=call&gs_lp=Egxnd3Mtd2l6LXNlcnAiBGNhbGwyEBAAGIAEGLEDGEMYyQMYigUyChAuGIAEGEMYigUyEBAuGIAEGLEDGEMY1AIYigUyDRAAGIAEGLEDGEMYigUyCxAAGIAEGJIDGIoFMgoQABiABBhDGIoFMg0QLhiABBhDGNQCGIoFMgoQABiABBhDGIoFMggQABiABBixAzIQEC4YgAQYsQMYQxjUAhiKBUitDFCWAVjGCnABeAGQAQCYAecBoAHpBKoBBTAuMy4xuAEDyAEA-AEBmAIFoAL_BKgCFMICGRAuGIAEGNEDGEMYtAIYxwEYigUY6gLYAQHCAhMQABiABBhDGLQCGIoFGOoC2AEBwgIdEAAYgAQYtAIY1AMY5QIYtwMYigUY6gIYigPYAQHCAhYQABgDGLQCGOUCGOoCGIwDGI8B2AECwgIWEC4YAxi0AhjlAhjqAhiMAxiPAdgBAsICCxAAGIAEGLEDGIMBwgIOEAAYgAQYsQMYgwEYigXCAhYQLhiABBixAxjRAxhDGIMBGMcBGIoFwgIOEC4YgAQYsQMYgwEYigXCAhEQLhiABBixAxjRAxiDARjHAcICEBAAGIAEGLEDGEMYgwEYigXCAhAQLhiABBjRAxhDGMcBGIoFwgIlEC4YgAQYsQMY0QMYQxiDARjHARiKBRiXBRjcBBjeBBjgBNgBA8ICBRAAGIAEwgILEC4YgAQY0QMYxwGYAwW6BgQIARgHugYGCAIQARgKugYGCAMQARgUkgcFMS4zLjGgB5gt&sclient=gws-wiz-serp"><button class="button" type="button"><img src="./call.png"><h1>Phone</h1></button></a></div>
+        </div>
+    </div>
+    
+    
+
+</body>
+</html>

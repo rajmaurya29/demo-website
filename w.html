@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .grid-container{
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+    }
+    
+    .main{
+        margin-left: 8%;
+        margin-top: 10px;
+        /* margin-bottom: 10px; */
+        width: 75%;
+        display:flex;
+        justify-content: space-around;
+    }
+    div{
+        color: black;
+    }
+    body{
+        background-color: rgb(228, 220, 208);
+    } 
+    .first{
+        background-color: rgb(166, 166, 185);
+        backdrop-filter: blur(45px);
+        border-radius: 30px;
+        padding: 10px;
+        margin:50px;
+        width: 350px;
+    }
+    .linkbutton{
+        color: red;
+    }
+    .center{
+        text-align: center;
+    }
+    .large{
+        background-color: #112D4E;
+        margin-top: 0px;
+        padding:4px;
+        height: 115px;
+        /* border-bottom-right-radius:  40px;
+        border-bottom-left-radius: 40px; */
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        }
+    body{
+        margin-top:0px ;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right:0px ;
+    }
+    .kiet{
+        margin-top: 0px ;
+        margin-bottom: 0px ;
+        text-align: center;
+        font-size: 45px;
+        color: #DDE6ED;
+    }
+    .imag{
+        width:100%;
+        margin-top:4px;
+    }
+    .logo{
+        width: 100px;
+        /* position: relative;
+        left:90%; */
+        /* top:5px; */
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .button{
+        height: 40px;
+        width: 80px;
+        position: relative;
+        left: 40%;
+        border-radius: 10px;
+        background-color: rgb(74, 58, 58);
+        color: white;
+        border-color:black;
+    }
+    .button:hover{
+        background-color: #112D4E;
+    }
+    .linkbutton{
+        font-size: 23px;
+        background-color: #DBE2EF;
+        border-radius: 4px;
+        padding: 5px;
+        margin:5px;
+    }
+    a:link{
+        color:#3F72AF;text-decoration: none;
+    }
+    a:visited{
+        color:#3F72AF;text-decoration: none;
+    }
+    .main>a:hover{
+        color:#3F72AF;text-decoration: none;
+        background-color: rgb(228, 220, 208);
+    }
+    a:active{
+        color:white;text-decoration: none;
+    }
+    .ins{
+        width: 28px;
+        border-radius: 6px;
+        opacity:.8;
+    }
+    .ins:hover{
+        opacity: 1;
+    }
+
+    .fl{
+        margin-top: 18px;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+     input{
+        border: 2px solid rgb(80, 122, 147);
+         border-radius: 100px;
+         width: 56%;
+         position: absolute;
+         right : 40px;
+         
+    } 
+    .lbel{
+        color: rgb(54, 30, 238);
+        font-size: large;
+        margin-left: 25px;
+    }
+    .cnter{
+        display: flex;
+        justify-content: center;
+    }
+    .grid1{
+        /* margin-left: 350px; */
+        width: 1000px;
+        display: grid;
+        grid-template-columns: 100px 860px;
+        grid-template-rows: 150px;
+        justify-content: center;
+    }
+    .heading{
+        width: 100%;
+        /* margin-left: 12%; */
+    }
+
+    @media(max-width:800px){
+        .logo{
+            width:0px;
+        }
+    }
+</style>
+<body>
+    <div class="large">
+        <div class="grid1">
+            <img class="logo" src="./kiet_logo.jpeg" href="www.google.com"></a>
+            <div class="heading">
+                <h1 class="kiet">
+                    KIET GROUP OF INSTITUITIONS
+                </h1>
+                <!-- <a href="https://www.google.com/search?q=college&rlz=1C1CHBF_enIN1079IN1079&oq=college&gs_lcrp=EgZjaHJvbWUyDwgAEEUYORixAxjJAxiABDIGCAEQRRg7MgYIAhBFGDsyCggDEAAYsQMYgAQyEwgEEC4YgwEYxwEYsQMY0QMYgAQyBwgFEAAYgAQyBggGEEUYPTIGCAcQRRg80gEINTM3OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8"> -->
+                <!-- <img class="logo" src="./kiet logo.jpeg" href="www.google.com"></a> -->
+            
+                <div class="main">
+                    <a class="linkbutton linkbutton1" href="./w.html">Home</a>
+                    <a class="linkbutton linkbutton2" href="./w2.html">Courses</a>
+                    <a class="linkbutton linkbutton3" href="./w1.html">Journey</a>
+                    <a class="linkbutton linkbutton4" href="./w4.html">About</a>
+                </div>
+                <!-- <img class="logo" src="./kiet logo.jpeg" href="www.google.com"></a> -->
+            </div> 
+        
+           
+        </div>
+    </div>
+    <div class="grid-container">
+        <div class="first-container"></div>
+        <div class="cnter">
+            <div class="first">
+                <h1 class="center">Login</h1>
+                <label class="lbel">Name</label>
+                <input type="text"/><br/><br/>
+                <label class="lbel">Section</label>
+                <input type="text"/><br/><br/>
+                <label class="lbel">Roll No.</label>
+                <input type="text"/><br/><br/>
+                <label class="lbel">Year</label>
+                <input type="text"/><br/><br/>
+                <label class="lbel">Semester</label>
+                <input type="text"/><br/><br/>
+                <label class="lbel">Password</label>
+                <input type="text"/><br/><br/>
+                <button class="button" type="button">login</button>
+                <div class="fl">
+                    <a href="https://www.google.com/search?q=insta&rlz=1C1CHBF_enIN1079IN1079&oq=insta+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg7MgYIAhBFGDsyBggDEEUYOzIPCAQQABgKGIMBGLEDGIAEMg8IBRAAGAoYgwEYsQMYgAQyDQgGEC4YxwEY0QMYgAQyBwgHEAAYgAQyBwgIEAAYgAQyDAgJEAAYChixAxiABNIBCDIyMzZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
+                        <img class="ins" src="./inst.png"></a>
+                    <a href="https://www.google.com/search?q=twitter&sca_esv=643716ddf41b34d8&rlz=1C1CHBF_enIN1079IN1079&ei=NHgjZqyaBMTcseMPmM6oiAw&ved=0ahUKEwishKLHq9CFAxVEbmwGHRgnCsEQ4dUDCBA&uact=5&oq=twitter&gs_lp=Egxnd3Mtd2l6LXNlcnAiB3R3aXR0ZXIyFhAuGIAEGLEDGNEDGEMYgwEYxwEYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyCxAAGIAEGLEDGIMBMhAQABiABBixAxhDGIMBGIoFMg0QABiABBixAxhDGIoFMgoQABiABBhDGIoFMhAQABiABBixAxhDGIMBGIoFMggQABiABBixAzIlEC4YgAQYsQMY0QMYQxiDARjHARiKBRiXBRjcBBjeBBjgBNgBAUj9DFAAWJgMcAB4AZABAJgB5AGgAd8HqgEFMC41LjG4AQPIAQD4AQGYAgagAvYHwgIFEAAYgATCAgoQLhiABBhDGIoFmAMA4gMFEgExIEC6BgYIARABGBSSBwUwLjUuMaAH3TE&sclient=gws-wiz-serp"><img class="ins" src="./twiter.svg"></a>
+                    <a href="https://www.google.com/search?q=whatsapp&sca_esv=643716ddf41b34d8&rlz=1C1CHBF_enIN1079IN1079&ei=Q3gjZpC7E6yOseMPsImX8Ag&oq=what&gs_lp=Egxnd3Mtd2l6LXNlcnAiBHdoYXQqAggAMhAQABiABBixAxhDGIMBGIoFMhAQABiABBixAxhDGIMBGIoFMggQABiABBixAzIFEAAYgAQyCBAAGIAEGLEDMgsQABiABBixAxiDATIIEAAYgAQYsQMyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDATIFEAAYgARIuxRQdFi8C3ABeAGQAQCYAXygAckDqgEDMC40uAEDyAEA-AEBmAIFoALWA6gCCsICFhAAGAMYtAIY5QIY6gIYjAMYjwHYAQHCAhYQLhgDGLQCGOUCGOoCGIwDGI8B2AEBwgIQEC4YgAQYsQMYQxiDARiKBcICBRAuGIAEwgIfEC4YgAQYsQMYQxiDARiKBRiXBRjcBBjeBBjgBNgBApgDA7oGBAgBGAq6BgYIAhABGBSSBwMxLjSgB7MY&sclient=gws-wiz-serp"><img class="ins" src="./what.png"></a>
+                    <a href="https://www.google.com/search?q=call&sca_esv=643716ddf41b34d8&rlz=1C1CHBF_enIN1079IN1079&ei=UngjZtiMNci8seMP6dmFqAE&ved=0ahUKEwjY_fnVq9CFAxVIXmwGHelsARUQ4dUDCBA&uact=5&oq=call&gs_lp=Egxnd3Mtd2l6LXNlcnAiBGNhbGwyEBAAGIAEGLEDGEMYyQMYigUyChAuGIAEGEMYigUyEBAuGIAEGLEDGEMY1AIYigUyDRAAGIAEGLEDGEMYigUyCxAAGIAEGJIDGIoFMgoQABiABBhDGIoFMg0QLhiABBhDGNQCGIoFMgoQABiABBhDGIoFMggQABiABBixAzIQEC4YgAQYsQMYQxjUAhiKBUitDFCWAVjGCnABeAGQAQCYAecBoAHpBKoBBTAuMy4xuAEDyAEA-AEBmAIFoAL_BKgCFMICGRAuGIAEGNEDGEMYtAIYxwEYigUY6gLYAQHCAhMQABiABBhDGLQCGIoFGOoC2AEBwgIdEAAYgAQYtAIY1AMY5QIYtwMYigUY6gIYigPYAQHCAhYQABgDGLQCGOUCGOoCGIwDGI8B2AECwgIWEC4YAxi0AhjlAhjqAhiMAxiPAdgBAsICCxAAGIAEGLEDGIMBwgIOEAAYgAQYsQMYgwEYigXCAhYQLhiABBixAxjRAxhDGIMBGMcBGIoFwgIOEC4YgAQYsQMYgwEYigXCAhEQLhiABBixAxjRAxiDARjHAcICEBAAGIAEGLEDGEMYgwEYigXCAhAQLhiABBjRAxhDGMcBGIoFwgIlEC4YgAQYsQMY0QMYQxiDARjHARiKBRiXBRjcBBjeBBjgBNgBA8ICBRAAGIAEwgILEC4YgAQY0QMYxwGYAwW6BgQIARgHugYGCAIQARgKugYGCAMQARgUkgcFMS4zLjGgB5gt&sclient=gws-wiz-serp"><img class="ins" src="./call.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="second-container"></div>
+   </div>
+
+</body>
+</html>
